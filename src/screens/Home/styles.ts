@@ -13,6 +13,11 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 48,
   },
+  emptyList: {
+    color: "white",
+    textAlign: "center",
+    marginTop: 16,
+  },
   input: {
     backgroundColor: "#1f1e25",
     height: 56,
@@ -32,7 +37,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  buttonText: {
+  textButton: {
     color: "#fff",
     fontSize: 24,
   },
